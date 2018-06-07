@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var name = ViewBag.UserName;
+}
+
+<h2>Home Page</h2>
+
+@Html.ActionLink("Logout","Logout","Security")
+
+Welcome @name
